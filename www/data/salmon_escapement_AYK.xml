@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="urn:uuid:cf185eae-4d4c-418e-b040-4f5fc4d0c67f" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=jclark,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Salmon escapement data from Arcic-Yukon-Kusokwim Region, 1965-2015</title>
+<creator id="1480439848291"><organizationName>Alaska Department of Fish and Game, Division of Commercial Fisheries, Arctic-Yukon-Kuskokwim Region</organizationName>
+</creator>
+<associatedParty id="1480440002152"><individualName><givenName>Jeanette</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+  <abstract><para>The salmon life cycle begins in freshwater streams when adult salmon spawn, leaving fertilized eggs which hatch in the stream. Juvenile salmon migrate downstream to the ocean, where they spend several years until they reach reproductive age. Upon reaching sexual maturity, they return to their natal streams to spawn. The number of mature salmon migrating from the marine environment to freshwater streams is defined as escapement. Escapement data are the enumeration of these migrating fish as they pass upstream, and are a widely used index of spawning salmon abundance. These data are important for fisheries management, since most salmon harvest occurs in freshwater rivers during this migration.
+
+Escapement data are collected in a variety of ways. Stationary projects utilize observers stationed along freshwater corridors who count salmon as they pass upriver through weirs or past elevated towers. Sonar equipment placed in the river can also give a stationary escapement count. These counts usually represent a sample, and are expanded to represent a 24h period. Escapement data can also be collected using aerial surveys, where observers in an aircraft provide an index to estimate escapement. In general, escapement counts do not represent total abundance, but instead an index of abundance. Surveys are usually timed to coincide with peak spawning activity, generally in the summer, but in the case of Coho salmon in the fall as well.
+
+These data are the result of a multi-year effort by the Alaska Department of Fish and Game, Division of Commercial Fisheries, Arctic-Yukon-Kusokwim (AYK) Region to create a salmon database management system that centralizes AYK salmon data in a standard format, making the data more accessible to management agencies and the general public. The escapement data portion of this database includes data from more than 70 projects conducted by the Alaska Department of Fish and Game, federal agencies, non-governmental organizations, and the Canadian Department of Fisheries and Oceans. Data span the time period of 1965 to present, and were collected on 58 unique rivers in four management areas. These areas are Kotzebue, Kuskokwim, Norton Sound-Port Clarence, Yukon and Yukon-Canada.  The five Alaskan salmon species (Chinook, Chum, Coho, Pink, Sockeye) are all represented in this dataset, in addition to two salmonids (Dolly Varden, Arctic Char).</para>
+</abstract>
+  <keywordSet><keyword>Salmon</keyword>
+ <keyword>Chinook</keyword>
+ <keyword>Chum</keyword>
+ <keyword>Coho</keyword>
+ <keyword>Pink</keyword>
+ <keyword>Sockeye</keyword>
+ <keyword>Dolly Varden</keyword>
+ <keyword>Arctic Char</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>Canada</keyword>
+ <keyword>Arctic</keyword>
+ <keyword>Yukon</keyword>
+ <keyword>Kuskokwim</keyword>
+ <keyword>escapement</keyword>
+ </keywordSet>
+ <intellectualRights><para>In using AYK Database Management System (AYKDBMS) data, the user agrees to the following:
+
+Not to use data contained in the AYKDBMS in any publication, product, or commercial application without prior written consent of the original data provider.
+
+To cite both the data provider and the AYKDBMS appropriately after approval of use is obtained.
+
+Not to hold the AYKDBMS or the original data providers liable for errors in the data.
+
+While we have made every effort to ensure the quality of the database, we cannot guarantee the accuracy of these datasets.</para>
+ </intellectualRights>
+ <coverage> <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oncorhynchus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>gorbuscha</taxonRankValue>
+ <commonName>Pink</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oncorhynchus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>keta</taxonRankValue>
+ <commonName>Chum</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oncorhynchus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>kisutch</taxonRankValue>
+ <commonName>Coho</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oncorhynchus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>nerka</taxonRankValue>
+ <commonName>Sockeye</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oncorhynchus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>tshawytscha</taxonRankValue>
+ <commonName>Chinook</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Salvelinus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>alpinus</taxonRankValue>
+ <commonName>Arctic Char</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Salvelinus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>malma</taxonRankValue>
+ <commonName>Dolly Varden</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1965-06-15</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2016-10-25</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+  <geographicCoverage><geographicDescription>Arctic-Yukon-Kuskokwim Region in Alaska and Canada</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-169.875</westBoundingCoordinate>
+<eastBoundingCoordinate>-145.375</eastBoundingCoordinate>
+<northBoundingCoordinate>72.0</northBoundingCoordinate>
+<southBoundingCoordinate>57.5</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+ <contact id="1479943561801"><individualName><givenName>Peter</givenName>
+ <surName>Westley</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks</organizationName>
+ </contact>
+ <contact id="1479945304939"><individualName><givenName>Madeline</givenName>
+ <surName>Jovanovich</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks</organizationName>
+ </contact>
+ <contact><references>1480439848291</references>
+ </contact>
+<methods><methodStep><description><section><title>Fish enumeration</title>
+<para>Fish are counted as they pass upstream past observers along migration corridors. Fish are counted as they pass upriver through weirs, past observers in observation towers, by sonar equipment in the river, or by aerial survey. Four count types are indicated in the data: Calculated, Estimated, Counted Live, and Unknown. Calculated values indicate the sum of the fish counted over one day, multplied by a factor. Estimated values indicate data were not obtainable for an entire day or part of a day, so the data for that particular day are estimated based on data from days surrounding the missing day. Counted Live indicates similar methodologies to Calculated values. Unknown indicates the count type is not known.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Data concatenation</title>
+<para>Data are recieved from the AYK Database Management System online form in excel (.xlsx) files for each unique river/species. In these data files, rows are fish enumerations on a unique date, and columns are unique year/method type combinations. Data for each river/species file are rearranged with rows containing unique date/year combinations, and columns indicating count type. Dates with no count value for a given method are populated with empty (NA) values. Individual, rearranged river/species files are then combined to a single file, populating new columns with river and species information. Columns for region, enumeration method (weir, tower, sonar), and participating agencies are also populated based on information from the AYK Database Mangement System website.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Data quality assurance</title>
+<para>To ensure high quality data, the following checks are performed. Data for each unique year/enumeration method combination are summed and compared to the annual sum row from the original data files. Unique values for river, species, region, method type, and participating agency are found and examined to ensure there are no spelling errors or apparent alternate spellings. Some files include an annual sum with the date 01/01/YYYY - rows with dates in this format are removed. The range of escapement enumeration values for each enumeration method are examined to ensure values are reasonable. </para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Calculating season totals</title>
+<para>Season totals are calculated for each unique year/river/species by summing across all four enumeration methods and dates for that year. If there are no data for a particular year, the empty value NA is preserved in the cumulative value. The cumulative season total is replicated across each date in that year/river/species and included as a new column in the concatenated dataset.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Data span from 1965-2016, and include data from 58 rivers in the management areas Kotzebue, Kuskokwim, Norton Sound-Port Clarence, Yukon and Yukon-Canada. 2016 data should be considered incomplete, however, since data were extracted prior to the end of the fall run for this year. Not all rivers contain continuous data from 1965 to present - the number of years and continuity of data varies considerably by river and species. Additionally, data for all species are not collected at all rivers.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>The data are a compilation of studies with varying sampling designs. Most utilize sonar, weirs, and towers to collect escapement data. Some utilize aerial surveys. Surveys are generally timed to capture peak spawning and the period immediately before and after the spawning event.</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <project><title>State of Alaska Salmon and People</title>
+ <personnel id="1479945662628"><individualName><givenName>Frank</givenName>
+ <surName>Davis</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1479945679405"><individualName><givenName>Ian</givenName>
+ <surName>Dutton</surName>
+ </individualName>
+ <organizationName>Nautilus Impact Investing</organizationName>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Gordon and Betty Moore Foundation</para>
+ </funding>
+ </project>
+ <dataTable id="urn:uuid:3bf8824c-ce81-49cd-ac17-7e433fbe9994"><entityName>salmon_escapement_AYK.csv</entityName>
+ <entityDescription>Compiled AYK Salmon Escapement data</entityDescription>
+ <physical id="1480351418600"><objectName>salmon_escapement_AYK.csv</objectName>
+ <size unit="byte">31940682</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>urn%3Auuid%3A23d3e51b-98d4-4749-b691-bea675aa1e41</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1480352192091"><attributeName>Date</attributeName>
+ <attributeDefinition>The date (year, month, day) on which the escapement survey was conducted</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ <dateTimePrecision>1 Day</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480352192092"><attributeName>Region</attributeName>
+<attributeDefinition>Region where escapement survey was conducted. Region names are similar to Alaska Department of Fish and Game management areas in the Arctic-Yukon-Kusokwim Region.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Kuskokwim</code>
+<definition>Including Kuskokwim river drainage, all waters of Alaska flowing into the Bering Sea between Cape Newenham and the Noskonat Peninsula, and Nunivak and St. Matthew Islands</definition>
+</codeDefinition>
+<codeDefinition><code>Norton Sound &amp; Kotzebue</code>
+<definition>Including all waters that drain into Norton Sound, the Chukchi Sea, and the Bering Sea between Point Hope to Point Romanof, including the waters of Alaska surrounding St. Lawrence Island</definition>
+</codeDefinition>
+<codeDefinition><code>Yukon</code>
+<definition>Including all waters between the latitude of Point Romanof and the latitude of the westernmost point of the Naskonat Peninsula, including those waters draining into the Bering Sea and all waters of Alaska north of the latitude of the westernmost tip of Point Hope and those waters of Alaska draining into the Arctic Ocean and the Chukchi Sea to the north and east</definition>
+</codeDefinition>
+<codeDefinition><code>Yukon - Canada</code>
+<definition>Including all water of the Yukon River and its tributaries that drain the Yukon Territory and the province of British Columbia in Canada</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1480352192093"><attributeName>River</attributeName>
+ <attributeDefinition>Name of river or stream where escapement survey was conducted - i.e. the freshwater migration corridor salmon use to escape the marine fishery to spawn</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name of river or stream</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480352192094"><attributeName>Species</attributeName>
+<attributeDefinition>Common name of salmon species for which escapement data were collected</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Arctic Char</code>
+<definition>scientific name Salvelinus alpinus</definition>
+</codeDefinition>
+<codeDefinition><code>Chinook</code>
+<definition>scientific name Oncorhynchus tshawytscha</definition>
+</codeDefinition>
+<codeDefinition><code>Chum</code>
+<definition>scientific name Oncorhynchus keta</definition>
+</codeDefinition>
+<codeDefinition><code>Coho</code>
+<definition>scientific name Oncorhynchus kisutch</definition>
+</codeDefinition>
+<codeDefinition><code>Dolly Varden (anadromus)</code>
+<definition>anadromous Dolly Varden, scientific name Salvelinus malma</definition>
+</codeDefinition>
+<codeDefinition><code>Dolly Varden (general)</code>
+<definition>both anadromous and fluvial Dolly Varden, scientific name Salvelinus Malma</definition>
+</codeDefinition>
+<codeDefinition><code>Other (non-target)</code>
+<definition>Other non-target species not belonging to salmonid family</definition>
+</codeDefinition>
+<codeDefinition><code>Sockeye</code>
+<definition>scientific name Oncorhynchus nerka</definition>
+</codeDefinition>
+<codeDefinition><code>Unknown Salmon</code>
+<definition>unknown salmon of genus Oncorhyncus</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1480352192095"><attributeName>Run Type</attributeName>
+<attributeDefinition>All salmon species have migration runs that occur during the summer, but Coho have an additional fall run. Run type distinguishes these runs</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Single Run</code>
+<definition>summer run for all species except Coho</definition>
+</codeDefinition>
+<codeDefinition><code>Fall Run</code>
+<definition>Fall run of Coho</definition>
+</codeDefinition>
+<codeDefinition><code>Summer Run</code>
+<definition>Summer run of Coho</definition>
+</codeDefinition>
+<codeDefinition><code>Undefined</code>
+<definition>runs for Other (non-target) species are undefined</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1480352192096"><attributeName>Escapement_Calculated</attributeName>
+<attributeDefinition>Escapement enumeration of the number of fish per day moving up a freshwater corridor to spawn, as calculated from the sum of fish counted in one day, multiplied by a factor</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>no escapement counts recorded</codeExplanation>
+</missingValueCode>
+</attribute>
+ <attribute id="1480352192097"><attributeName>Escapement_CountedLive</attributeName>
+<attributeDefinition>Escapement enumeration of the number of fish per day counted live moving up a freshwater corridor to spawn</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>no escapement counts recorded</codeExplanation>
+</missingValueCode>
+</attribute>
+ <attribute id="1480352192102"><attributeName>Escapement_Estimated</attributeName>
+<attributeDefinition>Escapement enumeration of the number of fish per day moving up a freshwater corridor to spawn, as estimated from an observation period shorter than 24 hours.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>no escapement counts recorded that year</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute id="1480352192099"><attributeName>Escapement_Unknown</attributeName>
+<attributeDefinition>Escapement enumeration of the number of fish per day moving up a freshwater corridor to spawn, with unknown counting method</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>no escapement counts recorded</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute id="1480352192098"><attributeName>Season_Total</attributeName>
+<attributeDefinition>Cumulative escapement count over a single season (year) for a unique river/species combination. This total represents the sum of all escapement values recorded, including all enumeration methods.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>no escapement counts recorded</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute id="1480352192100"><attributeName>enumerationMethod</attributeName>
+<attributeDefinition>Method used to collect escapement numbers</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Fish Ladder</code>
+<definition>Fish ladder used to collect escapement data</definition>
+</codeDefinition>
+<codeDefinition><code>Sonar</code>
+<definition>Sonar used to collect escapement data</definition>
+</codeDefinition>
+<codeDefinition><code>Tower</code>
+<definition>Tower used to collect escapement data</definition>
+</codeDefinition>
+<codeDefinition><code>Weir</code>
+<definition>Weir used to collect escapement data</definition>
+</codeDefinition>
+<codeDefinition><code>Video</code>
+<definition>Video footage used to collect esacpement data</definition>
+</codeDefinition>
+<codeDefinition><code>Weir &amp; Tower</code>
+<definition>both a weir and a tower used to collect escapement data</definition>
+</codeDefinition>
+<codeDefinition><code>Undefined</code>
+<definition>Method information is unknown</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1480352192101"><attributeName>participatingAgency</attributeName>
+<attributeDefinition>Name of agency or agencies that participated in/conducted the data collection project</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Name of participating agency</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ </attributeList>
+ <numberOfRecords>254192</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>
