@@ -20,7 +20,9 @@ shinyUI(fluidPage(
 
     # Show a plot of the generated distribution
     mainPanel(
-      span("Title:"), textOutput("title_text")
+      div(id = 'title', span("Title:"), textOutput("title_text")),
+
+      div(id = 'abstract', span("Abstract:"), textOutput("abstract_text"))
     )
   )
 ))

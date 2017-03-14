@@ -31,4 +31,23 @@ shinyServer(function(input, output) {
 
         eml_title})
 
+    output$abstract_text <- renderText({
+        input_eml = input$input_eml
+
+
+        if (is.null(input_eml)) {
+            eml_abstract = XML::xmlValue(sample_eml@dataset@abstract@para@.Data[[1]]@.Data[[1]])
+        } else {
+            other_eml = read_eml(input_eml$datapath)
+
+            if (eml_validate(other_eml)) {
+                eml_abstract = XML::xmlValue(other_eml@dataset@abstract@para@.Data[[1]]@.Data[[1]])
+            } else {
+                eml_abstract = "Error invalid EML"
+            }
+        }
+
+        return(eml_abstract)
+    })
+
 })
